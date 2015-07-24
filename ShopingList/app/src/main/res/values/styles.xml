@@ -1,8 +1,34 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
         <!-- Customize your theme here. -->
+
+        <item name="android:actionBarTabStyle">@style/CustomBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/CustomBarTabTextStyle</item>
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+
+        <!-- Support library compapability -->
+        <item name="actionBarTabStyle">@style/CustomBarTabStyle</item>
+        <item name="actionBarTabTextStyle">@style/CustomBarTabTextStyle</item>
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+    </style>
+
+    <style name="CustomBarTabStyle">
+        <item name="android:background">@color/action_bar_tabs_background</item>
+    </style>
+
+    <style name="CustomBarTabTextStyle">
+        <item name="android:textColor">@color/action_bar_text_color</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/CustomActionBatTextStyle</item>
+        <item name="android:background">@color/action_bar_background</item>
+    </style>
+
+    <style name="CustomActionBatTextStyle">
+        <item name="android:textColor">@color/action_bar_text_color</item>
     </style>
 
 

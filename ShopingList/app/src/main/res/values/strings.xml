@@ -4,7 +4,7 @@
     <string name="menu_search">Search</string>
     <string name="menu_add">Add</string>
 
-    <string name="tab1_name">Покупки</string>
-    <string name="tab2_name">Корзина</string>
-    <string name="tab3_name">Мои списки</string>
+    <string name="tab1_name">покупки</string>
+    <string name="tab2_name">корзина</string>
+    <string name="tab3_name">списки</string>
 </resources>
