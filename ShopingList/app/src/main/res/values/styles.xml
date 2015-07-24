@@ -8,7 +8,7 @@
         <item name="android:actionBarTabTextStyle">@style/CustomBarTabTextStyle</item>
         <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
 
-        <!-- Support library compapability -->
+        <!-- Support library compatibility -->
         <item name="actionBarTabStyle">@style/CustomBarTabStyle</item>
         <item name="actionBarTabTextStyle">@style/CustomBarTabTextStyle</item>
         <item name="actionBarStyle">@style/CustomActionBarStyle</item>
@@ -16,6 +16,7 @@
 
     <style name="CustomBarTabStyle">
         <item name="android:background">@color/action_bar_tabs_background</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="CustomBarTabTextStyle">
