@@ -7,15 +7,22 @@
         <item name="android:actionBarTabStyle">@style/CustomBarTabStyle</item>
         <item name="android:actionBarTabTextStyle">@style/CustomBarTabTextStyle</item>
         <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/CustomActionBarTabBarStyle</item>
 
         <!-- Support library compatibility -->
         <item name="actionBarTabStyle">@style/CustomBarTabStyle</item>
         <item name="actionBarTabTextStyle">@style/CustomBarTabTextStyle</item>
         <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="actionBarTabBarStyle">@style/CustomActionBarTabBarStyle</item>
     </style>
 
-    <style name="CustomBarTabStyle">
-        <item name="android:background">@color/action_bar_tabs_background</item>
+    <style name="CustomBarTabStyle" parent="Widget.AppCompat.ActionBar.TabView">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:minWidth">10dp</item>
+        <item name="android:maxWidth">15dp</item>
+        <item name="android:background">@drawable/tabs_indicator</item>
+        <!--<item name="android:background">@color/action_bar_tabs_background</item>-->
         <item name="android:gravity">center</item>
     </style>
 
@@ -32,5 +39,9 @@
         <item name="android:textColor">@color/action_bar_text_color</item>
     </style>
 
+    <style name="CustomActionBarTabBarStyle">
+        <item name="android:titleTextStyle">@style/CustomActionBatTextStyle</item>
+        <item name="android:background">@color/action_bar_background</item>
+    </style>
 
 </resources>

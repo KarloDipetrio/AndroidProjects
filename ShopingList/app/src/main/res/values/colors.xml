@@ -2,5 +2,9 @@
 <resources>
     <color name="action_bar_background">#2d9b27</color>
     <color name="action_bar_tabs_background">#00c90d</color>
+    <color name="tabs_background">#ffffff</color>
     <color name="action_bar_text_color">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="tab_color">#ff9ecfbf</color>
 </resources>

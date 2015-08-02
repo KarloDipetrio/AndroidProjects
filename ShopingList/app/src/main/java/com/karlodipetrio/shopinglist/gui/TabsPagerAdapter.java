@@ -18,7 +18,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int index) {
         switch(index) {
             case 0: // return purchases tab
-                return new PurchasesTabFragment();
+                return new CategoriesTabFragment();
 
             case 1: // return basket tab
                 return new BasketTabFragment();
