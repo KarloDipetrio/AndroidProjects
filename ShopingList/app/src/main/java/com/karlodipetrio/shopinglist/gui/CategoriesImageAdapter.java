@@ -47,10 +47,10 @@ public class CategoriesImageAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ImageButton imageButton = new ImageButton(mContext);
-        imageButton.setImageResource(mImageIdArr[position]);
-        imageButton.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageButton.setLayoutParams(new GridView.LayoutParams(120, 110));
-        return imageButton;
+        ImageView imageView = new ImageView(mContext);
+        imageView.setImageResource(mImageIdArr[position]);
+        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        imageView.setLayoutParams(new GridView.LayoutParams(120, 110));
+        return imageView;
     }
 }
